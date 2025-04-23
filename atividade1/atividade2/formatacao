@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texto Formatado</title>
+</head>
+
+<body>
+  <h1>O HTML é a base da web</h1>
+  <p>Ele nos permite criar páginas com muitos recursos interessantes!</p>
+
+  <p>Um dos elementos mais importantes é o <u>texto formatado</u>, como o uso de <strong>sublinhado</strong> para dar ênfase.</p>
+
+  <p>Além disso, podemos <strong>destacar partes importantes</strong> do conteúdo.</p>
+
+  <p>Por exemplo, em uma fórmula científica, temos: <br> <strong>E = mc<sup>2</sup></strong>, onde a energia é igual à massa vezes a velocidade da luz ao quadrado.</p>
+
+  <p>Em uma fórmula química, temos: <br> <strong>H<sub>2</sub>O</strong>, que representa a água.</p>
+
+  <p>Às vezes, coisas simples como mostrar uma tag HTML, como essa: <code>&lt;p&gt;</code>, podem ser complicadas ao escrever o código.</p>
+</body>
+
+</html>
