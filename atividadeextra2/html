@@ -1,0 +1,39 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandeiras Estilizadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    
+    <section class="bandeiras">
+        <div class="bandeira france">
+            <h2>Bandeira da França</h2>
+        </div>
+        <div class="bandeira japan">
+            <h2>Bandeira do Japão</h2>
+        </div>
+        <div class="bandeira germany">
+            <h2>Bandeira da Alemanha</h2>
+        </div>
+        <div class="bandeira poland">
+            <h2>Bandeira da Polônia</h2>
+        </div>
+        <div class="bandeira italy">
+            <h2>Bandeira da Itália</h2>
+        </div>
+    </section>
+
+    <section class="curiosidades">
+        <h2>Curiosidades sobre as Bandeiras</h2>
+        <p><strong>França:</strong> A bandeira da França é composta por três faixas verticais nas cores azul, branco e vermelho.</p>
+        <p><strong>Japão:</strong> A bandeira do Japão possui um círculo vermelho representando o sol, sobre um fundo branco.</p>
+        <p><strong>Alemanha:</strong> A bandeira da Alemanha é composta por três faixas horizontais de igual tamanho nas cores preta, vermelha e dourada.</p>
+        <p><strong>Polônia:</strong> A bandeira da Polônia é dividida em duas partes horizontais, branca na parte superior e vermelha na parte inferior.</p>
+        <p><strong>Itália:</strong> A bandeira da Itália é composta por três faixas verticais nas cores verde, branca e vermelha.</p>
+    </section>
+</body>
+</html>

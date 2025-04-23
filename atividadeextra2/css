@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+.bandeiras {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.bandeira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 120px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.france {
+    background: linear-gradient(to right, blue, white, red);
+}
+
+.japan {
+    background-color: white;
+    position: relative;
+}
+
+.japan::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.germany {
+    background: linear-gradient(to bottom, black, red, gold);
+}
+
+.poland {
+    background: linear-gradient(to bottom, white, red);
+}
+
+.italy {
+    background: linear-gradient(to right, green, white, red);
+}
+
+.curiosidades {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.curiosidades h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.curiosidades p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
